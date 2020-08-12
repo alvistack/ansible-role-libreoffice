@@ -15,7 +15,7 @@
 # limitations under the License.
 
 _apt_key:
-  - url: "https://keyserver.ubuntu.com/pks/lookup?op=get&search=0x36e81c9267fd1383fcc4490983fba1751378b444"
+  - url: "https://keyserver.ubuntu.com/pks/lookup?op=get&search=0x36E81C9267FD1383FCC4490983FBA1751378B444"
     id: "36E81C9267FD1383FCC4490983FBA1751378B444"
     state: "present"
 
