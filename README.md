@@ -1,5 +1,7 @@
 # Ansible Role for LibreOffice
 
+<img src="/alvistack.svg" width="75" alt="AlviStack">
+
 [![Gitlab pipeline status](https://img.shields.io/gitlab/pipeline/alvistack/ansible-role-libreoffice/master)](https://gitlab.com/alvistack/ansible-role-libreoffice/-/pipelines)
 [![GitHub release](https://img.shields.io/github/release/alvistack/ansible-role-libreoffice.svg)](https://github.com/alvistack/ansible-role-libreoffice/releases)
 [![GitHub license](https://img.shields.io/github/license/alvistack/ansible-role-libreoffice.svg)](https://github.com/alvistack/ansible-role-libreoffice/blob/master/LICENSE)
