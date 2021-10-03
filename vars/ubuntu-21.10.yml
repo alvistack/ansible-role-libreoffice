@@ -22,7 +22,7 @@ _apt_key:
 
 _apt_repository:
   - filename: "libreoffice"
-    repo: "deb http://ppa.launchpad.net/libreoffice/ppa/ubuntu hirsute main"
+    repo: "deb http://ppa.launchpad.net/libreoffice/ppa/ubuntu impish main"
     state: "present"
 
 _apt:
