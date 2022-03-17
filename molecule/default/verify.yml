@@ -19,6 +19,6 @@
   become: true
   tasks:
     - name: libreoffice --version
-      command: libreoffice --version
+      ansible.builtin.command: libreoffice --version
       register: result
       changed_when: result is not succeeded
