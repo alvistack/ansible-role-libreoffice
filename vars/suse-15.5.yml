@@ -14,16 +14,5 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-_apt_key:
-  - keyring: "/etc/apt/trusted.gpg.d/libreoffice.gpg"
-    url: "http://keyserver.ubuntu.com/pks/lookup?op=get&search=0x36E81C9267FD1383FCC4490983FBA1751378B444"
-    id: "36E81C9267FD1383FCC4490983FBA1751378B444"
-    state: "present"
-
-_apt_repository:
-  - filename: "libreoffice"
-    repo: "deb http://ppa.launchpad.net/libreoffice/ppa/ubuntu bionic main"
-    state: "present"
-
-_apt:
+_zypper:
   - { state: "latest", name: "libreoffice" }
