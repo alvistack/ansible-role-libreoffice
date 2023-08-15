@@ -19,8 +19,8 @@
   remote_user: root
   become: true
   tasks:
-    - name: libreoffice --version
+    - name: flatpak info org.libreoffice.LibreOffice
       ansible.builtin.command:
-        cmd: libreoffice --version
+        cmd: flatpak info org.libreoffice.LibreOffice
       register: result
       changed_when: result is not succeeded
